@@ -1,0 +1,53 @@
+footer {
+    padding: 26px 0 20px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 650px) {
+        & {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    .logo {
+        @media screen and (max-width: 650px) {
+            & {
+                display: none;
+            }
+        }
+    }
+
+    .contact-icons {
+
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        a {
+            color: black;
+
+            .icon {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .logo-text {
+        display: none;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #535765;
+
+        @media screen and (max-width: 650px) {
+            & {
+                display: block;
+            }
+        }
+    }
+}

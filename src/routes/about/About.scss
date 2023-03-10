@@ -1,0 +1,31 @@
+.about-section {
+    margin-bottom: 96px;
+
+    @media screen and (max-width: 850px) {
+        & {
+            margin-bottom: 80px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        & {
+            margin-bottom: 48px;
+        }
+    }
+
+    h3 {
+        padding-bottom: 12px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #14171F;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
